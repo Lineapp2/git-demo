@@ -1,14 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vores Lagersalg | København</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header class="site-header">
+        <a class="logo" href="#top">Vores Lagersalg</a>
+        <nav aria-label="Hovednavigation">
+            <a href="#eventet">Eventet</a>
+            <a href="#udvalg">Udvalg</a>
+            <a href="#praktisk-info">Praktisk info</a>
+        </nav>
+    </header>
 
-<h1>Headline</h1>
-<p>Dette er en lang tekst</p>
-<p>Endnu et tekstafsnit</p>
+    <main id="top">
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-text">
+                <p class="eyebrow">Københavns årlige lagersalg</p>
+                <h1 id="hero-title">Vores Lagersalg</h1>
+                <p class="hero-lead">Én weekend med brands, fund og særligt gode lagersalgspriser.</p>
+                <a class="button" href="#praktisk-info">Se praktisk info</a>
+            </div>
 
+            <div class="hero-info" aria-label="Eventinformation">
+                <p class="date-label">3.- 4. oktober</p>
+                <p class="opening-hours">Lørdag + søndag<br>10-17</p>
+                <p class="sticker">De første 100 får en goodiebag</p>
+            </div>
+        </section>
+
+        <section class="intro section" id="eventet" aria-labelledby="intro-title">
+            <p class="section-label">Eventet</p>
+            <h2 id="intro-title">Én weekend. En masse brands. Virkelig gode priser.</h2>
+            <p>
+                Forskellige virksomheder samles i København med tøj, beauty, hudpleje,
+                hårpleje, accessories og andre lifestyleprodukter til særlige lagersalgspriser.
+            </p>
+        </section>
+
+        <section class="categories section" id="udvalg" aria-labelledby="categories-title">
+            <div class="section-heading">
+                <p class="section-label">Udvalg</p>
+                <h2 id="categories-title">Find dine næste favoritter.</h2>
+            </div>
+
+            <div class="category-grid" aria-label="Produktkategorier">
+                <p>Tøj</p>
+                <p>Hudpleje</p>
+                <p>Hårpleje</p>
+                <p>Beauty</p>
+                <p>Accessories</p>
+                <p>+ meget mere</p>
+            </div>
+        </section>
+
+        <section class="goodiebag section" aria-labelledby="goodiebag-title">
+            <p class="section-label">Goodiebag</p>
+            <h2 id="goodiebag-title">Kom tidligt.</h2>
+            <p class="big-text">De første 100 i køen får en goodiebag.</p>
+            <p>Goodiebags uddeles til de første 100 besøgende i køen, så længe lager haves.</p>
+        </section>
+
+        <section class="practical section" id="praktisk-info" aria-labelledby="practical-title">
+            <div class="section-heading">
+                <p class="section-label">Praktisk info</p>
+                <h2 id="practical-title">Alt det vigtige, kort fortalt.</h2>
+            </div>
+
+            <div class="info-grid">
+                <article>
+                    <h3>Hvornår</h3>
+                    <p>3. - 4. oktober</p>
+                </article>
+                <article>
+                    <h3>Lørdag</h3>
+                    <p>10.00-17.00</p>
+                </article>
+                <article>
+                    <h3>Søndag</h3>
+                    <p>10.00-17.00</p>
+                </article>
+                <article>
+                    <h3>Hvor</h3>
+                    <p>København<br>Lokation offentliggøres snart</p>
+                </article>
+                <article>
+                    <h3>Entré</h3>
+                    <p>Gratis</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p class="logo">Vores Lagersalg</p>
+        <p>København</p>
+        <p>Én gang om året. Vi ses næste weekend.</p>
+    </footer>
 </body>
 </html>
